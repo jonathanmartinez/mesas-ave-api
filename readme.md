@@ -1,6 +1,6 @@
 # Mesas AVE API REST
 
-> Mesas AVE es una aplicación para potenciar la economía colaborativa compartiendo mesa en trenes de tipo AVE Renfe. 
+> Mesas AVE es una App móvil para potenciar la economía colaborativa compartiendo mesa en trenes de tipo AVE Renfe. 
 
 A continuación se describen todos los servicios que ofrece el API.
 
