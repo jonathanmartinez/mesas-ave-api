@@ -1,11 +1,11 @@
-#Mesas AVE
+# Mesas AVE
 
 > API REST para la aplicación Mesas AVE. A continuación se describen todos los servicios que ofrece el API.
 
 > [http://mesasave.herokuapp.com/api/v1](http://mesasave.herokuapp.com/api/v1)
 
 
-##Listado de servicios
+## Listado de servicios
 
 - [GET stations](#markdown-header-get-stations)
 - [GET stations/[id]](#markdown-header-get-stationsid)
@@ -25,7 +25,7 @@
 
 
 
-##Resumen
+## Resumen
 
 | Servicio        	              | Descripción                       | Requiere Authorization |
 | --------------------------------|:---------------------------------:| ----------------------:|
@@ -46,7 +46,7 @@
 
 
 
-##Dominio
+## Dominio
 
 - `stations`: Estaciones por las que pasan los trenes AVE.
 - `tables`: Cada una de las mesas con 4 asientos que se encuentran en los trenes AVE.
@@ -61,7 +61,7 @@
 
 
 
-##Servicios
+## Servicios
 
 ### GET stations
 
@@ -86,7 +86,7 @@ __Reponse body:__
     		"name": "Alicante"
   		}
 	]
-	
+
 
 ### GET stations/[id]
 
@@ -111,7 +111,7 @@ __Reponse body:__
 
 __Description:__ Obtiene todas las mesas. Se pueden aplicar filtros mediante Query string. La Query string es opcional.
 
-Para obtener las 100 primeras mesas con 3 plazas disponibles ordenadas por el parámetro `fromDatetime` de forma descencente sería: 
+Para obtener las 100 primeras mesas con 3 plazas disponibles ordenadas por el parámetro `fromDatetime` de forma descencente sería:
 
 `http://www.mesasave.herokuapp.com/api/v1/tables?availablePlaces=3&skip=0&limit=100&sort=-fromDatetime`.
 
@@ -330,7 +330,7 @@ __Reponse body:__
 
 	[
 	  	{
-			
+
 			"_id": "500803afe4b018f3e291fff9",
 			"name": "Pepe López",
 			"email": "pepe@gmail.com",
