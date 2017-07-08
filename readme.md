@@ -1,6 +1,8 @@
-# Mesas AVE
+# Mesas AVE API REST
 
-> API REST para la aplicación Mesas AVE. A continuación se describen todos los servicios que ofrece el API.
+> Mesas AVE es una aplicación para potenciar la economía colaborativa compartiendo mesa en trenes de tipo AVE Renfe. 
+
+A continuación se describen todos los servicios que ofrece el API.
 
 [http://mesasave.herokuapp.com/api/v1](http://mesasave.herokuapp.com/api/v1)
 
