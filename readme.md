@@ -2,7 +2,7 @@
 
 > API REST para la aplicación Mesas AVE. A continuación se describen todos los servicios que ofrece el API.
 
-> [http://mesasave.herokuapp.com/api/v1](http://mesasave.herokuapp.com/api/v1)
+[http://mesasave.herokuapp.com/api/v1](http://mesasave.herokuapp.com/api/v1)
 
 
 ## Listado de servicios
